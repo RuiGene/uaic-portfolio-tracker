@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask_cors import CORS
-import app.chart_data_builder as chart_data_builder
+import app/chart_data_builder as chart_data_builder
 
 app = Flask(__name__)
 CORS(app)
