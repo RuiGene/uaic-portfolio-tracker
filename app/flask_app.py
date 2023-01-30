@@ -1,13 +1,13 @@
 from flask import Flask, request
 from flask_cors import CORS
-import app.chart_data_builder as chart_data_builder
+import chart_data_builder as chart_data_builder
 
 app = Flask(__name__)
 CORS(app)
 
 @app.route('/')
 def homepage():
-    return '<h1>UAIC Portfolio Tracker</h1>Docs to appear here soon...'
+    return '<h1>UAIC Portfolio Tracker</h1>Docs to sdfsdf here soon...'
 
 @app.route('/get-chart', methods=['POST'])
 def process_json():
